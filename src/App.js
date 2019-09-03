@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import Signup from './Signup'
+import Tweaks from './Tweaks';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
         <h1>Tweak Playground</h1>
       </header>
       <Signup/>
+      <Tweaks/>
     </div>
   );
 }
